@@ -100,68 +100,27 @@ $$
 
 ## Algorithm
 
-
+Import Gymnasium, NumPy and Matplotlib libraries.
+Create the FrozenLake environment.
+Initialize the Q-table with zeros.
+Select actions using the epsilon-greedy policy.
+Generate complete episodes.
+Calculate the return for each state-action pair.
+Update Q-values using the Monte Carlo update rule.
+Improve the policy using the updated Q-table.
+Display the Q-table, state values, learned policy and learning curve.
 
 ## Python Program
 
--------------------------------------------------
-#### Monte Carlo Control
 
-
-```python
-# Write your code here
-
-
-
-```
-
----
 
 ## Output
 
-```text
-Final Q-table:
 
-
-
-Estimated State-Value Function:
-
-
-
-
-
-
-
-Learned Policy:
-
-
-
-
-
-Average reward over last 1000 episodes: 
-```
-
-
----
 
 ## Result
-```text
-
-
-
-```
----
+Monte Carlo Control was implemented successfully using the Gymnasium FrozenLake environment. The agent learned an improved policy using complete episodes and estimated Q-values.
 
 ## Inference
-```text
-
-
-
-```
-
-
-
-
-
----
+The agent learns the best actions from episode returns and improves its policy to reach the goal.
 
